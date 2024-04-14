@@ -48,8 +48,10 @@ check the [documentation](https://www.npmjs.com/package/@opentelemetry/auto-inst
 
 ## Local Development Setup
 
-It's important to setup the NodeSDK and the automatic instrumentation **before** importing any library. This is why we will use the nodejs [`--import`](https://nodejs.org/api/cli.html#--importmodule)
-flag when we start up the application.
+It's important to setup the NodeSDK and the automatic instrumentation **before**
+importing any library. This is why we will use the nodejs
+[`--require`](https://nodejs.org/api/cli.html#-r---require-module) flag when we
+start up the application.
 
 For local development, you can add the required flag in your `packages/backend/package.json`.
 

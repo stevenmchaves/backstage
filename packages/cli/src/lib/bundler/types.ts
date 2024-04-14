@@ -53,7 +53,6 @@ export type BackendBundlingOptions = {
   inspectEnabled: boolean;
   inspectBrkEnabled: boolean;
   require?: string;
-  import?: string;
 };
 
 export type BackendServeOptions = BundlingPathsOptions & {
@@ -61,5 +60,4 @@ export type BackendServeOptions = BundlingPathsOptions & {
   inspectEnabled: boolean;
   inspectBrkEnabled: boolean;
   require?: string;
-  import?: string;
 };

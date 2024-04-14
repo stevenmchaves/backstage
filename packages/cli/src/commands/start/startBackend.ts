@@ -24,7 +24,6 @@ interface StartBackendOptions {
   inspectEnabled: boolean;
   inspectBrkEnabled: boolean;
   require?: string;
-  import?: string;
 }
 
 export async function startBackend(options: StartBackendOptions) {
@@ -35,7 +34,6 @@ export async function startBackend(options: StartBackendOptions) {
       inspectEnabled: options.inspectEnabled,
       inspectBrkEnabled: options.inspectBrkEnabled,
       require: options.require,
-      import: options.import,
     });
 
     await waitForExit();
@@ -46,7 +44,6 @@ export async function startBackend(options: StartBackendOptions) {
       inspectEnabled: options.inspectEnabled,
       inspectBrkEnabled: options.inspectBrkEnabled,
       require: options.require,
-      import: options.import,
     });
 
     await waitForExit();
@@ -77,7 +74,6 @@ export async function startBackendPlugin(options: StartBackendOptions) {
       inspectEnabled: options.inspectEnabled,
       inspectBrkEnabled: options.inspectBrkEnabled,
       require: options.require,
-      import: options.import,
     });
 
     await waitForExit();
@@ -96,7 +92,6 @@ export async function startBackendPlugin(options: StartBackendOptions) {
       inspectEnabled: options.inspectEnabled,
       inspectBrkEnabled: options.inspectBrkEnabled,
       require: options.require,
-      import: options.import,
     });
 
     await waitForExit();
@@ -109,7 +104,6 @@ async function cleanDistAndServeBackend(options: {
   inspectEnabled: boolean;
   inspectBrkEnabled: boolean;
   require?: string;
-  import?: string;
 }) {
   // Cleaning dist/ before we start the dev process helps work around an issue
   // where we end up with the entrypoint executing multiple times, causing

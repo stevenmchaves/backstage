@@ -276,9 +276,6 @@ export async function createBackendConfig(
   if (options.require) {
     runScriptNodeArgs.push(`--require=${options.require}`);
   }
-  if (options.import) {
-    runScriptNodeArgs.push(`--import=${options.import}`);
-  }
 
   return {
     mode: isDev ? 'development' : 'production',

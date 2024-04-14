@@ -11898,21 +11898,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@grpc/proto-loader@npm:^0.7.0, @grpc/proto-loader@npm:^0.7.8":
-  version: 0.7.10
-  resolution: "@grpc/proto-loader@npm:0.7.10"
-  dependencies:
-    lodash.camelcase: ^4.3.0
-    long: ^5.0.0
-    protobufjs: ^7.2.4
-    yargs: ^17.7.2
-  bin:
-    proto-loader-gen-types: build/bin/proto-loader-gen-types.js
-  checksum: 4987e23b57942c2363b6a6a106e63efae636666cefa348778dfafef2ff72da7343c8587667521cb1d52482827bcd001dd535bdc27065110af56d9c7c176334c9
-  languageName: node
-  linkType: hard
-
-"@grpc/proto-loader@npm:^0.7.10":
+"@grpc/proto-loader@npm:^0.7.0, @grpc/proto-loader@npm:^0.7.10, @grpc/proto-loader@npm:^0.7.8":
   version: 0.7.12
   resolution: "@grpc/proto-loader@npm:0.7.12"
   dependencies:
@@ -19509,17 +19495,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/aws-lambda@npm:8.10.122":
+"@types/aws-lambda@npm:8.10.122, @types/aws-lambda@npm:^8.10.83":
   version: 8.10.122
   resolution: "@types/aws-lambda@npm:8.10.122"
   checksum: 5c2e02ae8fc0eea90fa3b1014f401a8567695e65910fb53452e813b9b58761c956fba50ac7da606b97e07d881d264ff513573d279e7116f3c6b9590fdb093f31
-  languageName: node
-  linkType: hard
-
-"@types/aws-lambda@npm:^8.10.83":
-  version: 8.10.92
-  resolution: "@types/aws-lambda@npm:8.10.92"
-  checksum: 71c44d83a1c88aa6dbc920baedfb2d100b8843a3d210c695ccaafb30dfb75f04398b0e5368100022acbf75c55d456c61774242f20dd70915fc63d85430cbcf8a
   languageName: node
   linkType: hard
 
@@ -19745,16 +19724,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/connect@npm:*":
-  version: 3.4.33
-  resolution: "@types/connect@npm:3.4.33"
-  dependencies:
-    "@types/node": "*"
-  checksum: 1220403e0cd05c6f51c03b83eed0f4e086f252d50c13279effd38d8bfea5cae82db012b134d31004cb8e4705f83d8ad62dddd71028baa190bf6f31c8d9ac916b
-  languageName: node
-  linkType: hard
-
-"@types/connect@npm:3.4.36":
+"@types/connect@npm:*, @types/connect@npm:3.4.36":
   version: 3.4.36
   resolution: "@types/connect@npm:3.4.36"
   dependencies:
@@ -24762,14 +24732,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cjs-module-lexer@npm:^1.0.0":
-  version: 1.2.2
-  resolution: "cjs-module-lexer@npm:1.2.2"
-  checksum: 977f3f042bd4f08e368c890d91eecfbc4f91da0bc009a3c557bc4dfbf32022ad1141244ac1178d44de70fc9f3dea7add7cd9a658a34b9fae98a55d8f92331ce5
-  languageName: node
-  linkType: hard
-
-"cjs-module-lexer@npm:^1.2.2":
+"cjs-module-lexer@npm:^1.0.0, cjs-module-lexer@npm:^1.2.2":
   version: 1.2.3
   resolution: "cjs-module-lexer@npm:1.2.3"
   checksum: 5ea3cb867a9bb609b6d476cd86590d105f3cfd6514db38ff71f63992ab40939c2feb68967faa15a6d2b1f90daa6416b79ea2de486e9e2485a6f8b66a21b4fb0a

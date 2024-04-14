@@ -2,4 +2,4 @@
 '@backstage/cli': patch
 ---
 
-Allow passing `--import` and `--require` arguments through to the Node process during `package start`
+Allow passing a `--require` argument through to the Node process during `package start`
