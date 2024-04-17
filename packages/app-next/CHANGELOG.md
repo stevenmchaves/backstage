@@ -1,5 +1,12 @@
 # example-app-next
 
+## 0.0.11
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/plugin-home@0.7.4
+
 ## 0.0.10
 
 ### Patch Changes

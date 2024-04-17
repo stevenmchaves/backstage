@@ -1,5 +1,11 @@
 # @backstage/plugin-home
 
+## 0.7.4
+
+### Patch Changes
+
+- 2196d3e: Use relative time when displaying visits from the same day
+
 ## 0.7.3
 
 ### Patch Changes

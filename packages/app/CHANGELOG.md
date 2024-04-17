@@ -1,5 +1,12 @@
 # example-app
 
+## 0.2.97
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/plugin-home@0.7.4
+
 ## 0.2.96
 
 ### Patch Changes
